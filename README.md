@@ -11,6 +11,11 @@ To run yolo
 6) yolo obb train model=yolov8n-obb.pt data=fencing_obb_sample_dataset/data.yaml imgsz=1024 epochs=100 batch=8 device=0
 7) yolo obb predict model=runs/obb/train/weights/best.pt source=fencing_obb_sample_dataset/test_images save=True
 
+The results is stored in runs/obb/predict
+
+
+
+
 
 <div align="center">
   <p>

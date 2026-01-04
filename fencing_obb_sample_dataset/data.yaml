@@ -1,0 +1,22 @@
+path: /media/yin/Seagate8T1/gitHub/Ubuntu_2204/VisImage/ultralytics/fencing_obb_sample_dataset/
+train: images/train
+val: images/val
+names:
+  0: piste_left_border_far
+  1: piste_left_border_near
+  2: piste_left_end_far
+  3: piste_left_end_near
+  4: piste_left_warn_far
+  5: piste_left_warn_near
+  6: piste_left_onguard_far
+  7: piste_left_onguard_near
+  8: piste_center_far
+  9: piste_center_near
+  10: piste_right_onguard_far
+  11: piste_right_onguard_near
+  12: piste_right_warn_far
+  13: piste_right_warn_near
+  14: piste_right_end_far
+  15: piste_right_end_near
+  16: piste_right_border_far
+  17: piste_right_border_near

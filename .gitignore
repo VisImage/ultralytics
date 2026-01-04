@@ -203,3 +203,8 @@ calibration_*.npy
 # Training logs
 args.yaml
 results.csv
+
+# Shi Jan 4, 2026
+runs/
+yolo11n.pt
+yolov8n_obb.pt

@@ -188,7 +188,7 @@ calibration_*.npy
 *.mov
 *.mkv
 *.webm
-*.jpg
+# *.jpg  # need to commit sample images
 *.jpeg
 *.png
 *.bmp

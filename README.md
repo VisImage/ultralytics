@@ -1,13 +1,11 @@
 ## Shi Jan. 4, 2026
 
 To setup and configuration
-1) git clone https://github.com/VisImage/ultralytics.git
+1) git clone git@github.com:VisImage/ultralytics.git
 2) conda create -n yolo_fencing python=3.10
 3) conda activate yolo_fencing
 4) cd ultralytics
 5) pip install -e .  //it will take a while to download large Navida files
-
-To run yolo
 6) yolo obb train model=yolov8n-obb.pt data=fencing_obb_sample_dataset/data.yaml imgsz=1024 epochs=100 batch=8 device=0
 7) yolo obb predict model=runs/obb/train/weights/best.pt source=fencing_obb_sample_dataset/test_images save=True
 

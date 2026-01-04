@@ -9,7 +9,8 @@ To setup and configuration
 6) yolo obb train model=yolov8n-obb.pt data=fencing_obb_sample_dataset/data.yaml imgsz=1024 epochs=100 batch=8 device=0
 7) yolo obb predict model=runs/obb/train/weights/best.pt source=fencing_obb_sample_dataset/test_images save=True
 
-The results is stored in runs/obb/predict
+The training result is stored in /runs/obb/train or train1 .. The folder name is automatically created by yolo training program. So make sure in step 7), the model=folder corresponding to a successful trainig. The prediction result is stored in runs/obb/predict
+
 
 
 
